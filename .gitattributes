@@ -1,0 +1,6 @@
+# 仓库在 WSL 内，但同一份工作区可能被 Windows 侧（OneDrive / VS Code）checkout。
+# 强制 LF，否则 driver.pl 的 shebang 与 Makefile 配方会被 CRLF 破坏。
+* text=auto eol=lf
+
+# dlc 是 979KB ELF，含 debug_info，绝不能被当文本做换行转换
+dlc binary

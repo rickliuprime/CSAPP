@@ -1,0 +1,11 @@
+# Makefile 的构建产物（csapp_lab/Makefile: all / btestexplicit）
+btest
+btestexplicit
+fshow
+ishow
+*.o
+*~
+
+# driver.pl 在 /var/tmp/datalab.$login.$$ 里跑，不留文件在仓库内；
+# 但如果手工在仓库里跑 btest 重定向，产物形如 *.out
+*.out
