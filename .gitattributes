@@ -4,3 +4,6 @@
 
 # dlc 是 979KB ELF，含 debug_info，绝不能被当文本做换行转换
 dlc binary
+
+# bomb_lab 靶子同样是 ELF，理由同上
+bomb_lab/bomb binary

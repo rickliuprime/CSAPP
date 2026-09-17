@@ -9,3 +9,7 @@ ishow
 # driver.pl 在 /var/tmp/datalab.$login.$$ 里跑，不留文件在仓库内；
 # 但如果手工在仓库里跑 btest 重定向，产物形如 *.out
 *.out
+
+# bomb_lab：靶子 ELF（含 debug_info，每个学生一份，不该入库）；
+# bomb.c / README 是 handout 源码，保留可跟踪
+bomb_lab/bomb
